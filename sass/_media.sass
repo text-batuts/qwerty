@@ -1,0 +1,158 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	.carousel-caption .h1
+		font-size: 25px
+
+	.carousel-control.right
+		padding-right: 0px
+
+	.carousel-control.left
+		padding-left: 0px
+
+	.carousel-caption 
+		p
+			font-size: 20px
+
+	#myCarousel
+		.button
+			left: 20px
+			right: 20px
+	
+	.s3
+		#myCarousel2
+			.carousel-control.right
+				right: 0px
+			.carousel-control.left
+				left: 0px
+
+	.s2 .h1, .s2 h1
+		text-shadow: none
+
+	.s5
+		background: url("../img/slide1.png")
+		background-size: cover
+		.s5_text
+			text-align: left
+			color: #fff
+		hr
+			border: 1px solid #fff
+
+	.s7
+		.price
+			padding: 0 15px
+			border: none
+			border-bottom: 2px solid $accent
+			h3
+				&:before
+					left: 190px
+			.scale_size
+				.scale_elem
+					margin-right: 133px
+				.last
+					margin-right: 0
+			.road
+				.road_elem
+					margin-right: 230px
+				.last
+					margin-right: 0
+		.price_last
+			border: none
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	#myCarousel
+		.carousel-control.left
+			padding-left: 5px
+		.carousel-control.right
+			padding-right: 5px
+		.carousel-caption
+			p
+				line-height: 25px
+	.s7
+		.price
+			h3
+				&:before
+					background-image: none
+			.scale_size
+				.scale_elem
+					margin-right: 20.5%
+	.footer_logo
+		margin: 0
+	.footer_contacts
+		margin-left: 30px
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	.logo 
+		img
+			margin-left: 5px
+	.phone .fa
+		font-size: 18px
+	#myCarousel
+		.button
+			padding: 0
+			bottom: 10px
+		.carousel-caption
+			p
+				line-height: 1
+		.carousel-indicators
+			top: 190px
+	.s7
+		.price
+			.input_price
+				padding: 0 15px
+			.scale
+				padding: 0 15px
+	.main_footer
+		.col-xs-2, .col-xs-8
+			float: none
+			width: 100%
+			text-align: center
+		.footer_contacts
+			margin-left: 0
+			margin-top: 10px
+			p
+				margin-bottom: 0
+		.footer_social
+			margin: 0
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	.container
+		width: 980px
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	.container
+		width: 980px
+
